@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:text="    Industrial Training Project Developed by:
+Nzosiama Chinecherem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level: 300 Level"
+android:textColor="#27002b"
+        android:textSize="20dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="6dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/daveicon"
+        app:layout_constraintBottom_toTopOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="1dp"
+        />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxEms="1"
+        android:gravity="start|top"
+        android:text="Under the supervision of:Engr. Dr. Mrs. Ifeyinwa E. Achumba. HOD EEE Department Federal University Technology Of Owerri. "
+        android:inputType="textMultiLine"
+        android:textColor="#27002b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintLeft_toLeftOf="@id/textView2"
+        app:layout_constraintRight_toLeftOf="@id/imageView2"/>
+
+</android.support.constraint.ConstraintLayout>
